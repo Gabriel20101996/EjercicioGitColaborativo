@@ -38,5 +38,5 @@ public class HistoriaJuegoColaborativa {
 			
 		}
 	}
-
+//prueba Gabriel Canda
 }
