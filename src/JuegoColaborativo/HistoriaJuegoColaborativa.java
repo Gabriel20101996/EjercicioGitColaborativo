@@ -39,4 +39,4 @@ public class HistoriaJuegoColaborativa {
 		}
 	}
 
-}
+}//Prueba Estefania Abellan
