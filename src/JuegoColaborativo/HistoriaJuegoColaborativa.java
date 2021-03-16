@@ -38,5 +38,79 @@ public class HistoriaJuegoColaborativa {
 			
 		}
 	}
-//Prueba Sergio Felez
+
+	static void opcion3() {
+		
+		System.out.println("Decides colaborar con la CNP");
+		System.out.println();
+		System.out.println("Estas en la ubicacion donde se situa el portal. Una vez alli, entras junto con los agentes del GEO a las instalaciones, de camino alli al portal, hay complicaciones.");
+		System.out.println();
+		System.out.println("Las entidades van matando poco a poco a todos los agentes.");
+		System.out.println();
+		System.out.println("Huyendo de las entidades consigues llegar hasta el portal, gracias a Aiden.");
+		System.out.println();
+		System.out.println("Una vez alli, encuentras un centro de controles, en el que hay un boton grande y rojo.");
+		System.out.println();
+		System.out.println("1.- Pulsar el boton y arriesgarte a que cierre el portal");
+		System.out.println("2.- No pulsar el boton e intentar buscar una manera de cerrarlo por ti misma.");
+		System.out.println();
+		System.out.println("Decides: ");
+		
+		int eleccion = scanner.nextInt();
+		
+		if(eleccion == 1) {
+			
+			opcion5();
+		}else {
+			
+			opcion6();
+		}
+	}
+	
+	
+	static void opcion4() {
+		
+		System.out.println("Decides no colaborar con la CNP, por ese motivo, deciden investigarte para cerrar el portal sin tu ayuda.");
+		System.out.println();
+		System.out.println("En una de las investigaciones Aiden se corrompe y debido a ello, tu cuerpo no es capaz de soportarlo y entras en un coma en el que nunca volveras a despertar.");
+	}
+	
+	static void opcion5() {
+		
+		System.out.println("Decides pulsar el boton y el portal se comienza a cerrar, se inicia una cuenta atras durante la cual tienes que decidir entre:");
+		System.out.println();
+		System.out.println("1.- Permanecer en el mundo de los vivos y desvincularte definitivamente de Aiden");
+		System.out.println("2.- Acompanar a Aiden al inframundo y convertirte en una entidad");
+		System.out.println();
+		System.out.println("Decides: ");
+		int eleccion = scanner.nextInt();
+		
+		if(eleccion == 1) {
+			
+			opcion7();
+		}else {
+			
+			opcion8();
+		}
+	}
+	
+	
+	static void opcion6() {
+		
+		System.out.println("Mientras que intentas buscar la manera de cerrarlo, las entidades destuyen el centro de control generando una explosion, causando tu muerte.");
+		System.out.println();
+		System.out.println("Debido a esto, el inframundo conquista el mundo de los vivos.");
+	}
+	
+	static void opcion7() {
+		
+		System.out.println("Al cerrar el portal Aiden se despide de ti y descubres que era el espiritu de tu hermano.");
+		System.out.println();
+		System.out.println("Has conseguido sobrevivir y salvar el mundo, decides vivir tu vida con la mayor normalidad posible y teniendo a Aiden en tu recuerdo");
+	}
+	
+	static void opcion8() {
+		
+		System.out.println("Aiden te confiesa que es tu hermano y decides morir e ir al inframundo, permaneciendo con el eternamente");
+	}
 }
