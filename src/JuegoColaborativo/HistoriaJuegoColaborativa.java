@@ -38,5 +38,5 @@ public class HistoriaJuegoColaborativa {
 			
 		}
 	}
-
+//Prueba Sergio Felez
 }
