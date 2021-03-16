@@ -33,53 +33,13 @@ public class HistoriaJuegoColaborativa {
 
 		if (eleccion == 1){
 
-			
+			opcion1();
 		} else {
 
-			
+			opcion2();
 		}
 	}
-
-	static void opcion9() {
-
-		System.out.println("Decides salir a buscar a Aiden. Tras seguir sus pisadas por el bosque, le encuentras.");
-		System.out.println("");
-		System.out.println("Comenzais a dar un paseo y a hablar sobre lo que ha ocurrido.");
-		System.out.println("En mitad de la charla, cerca de un precipicio, una manada de ciervos os empiezan a acorralar.");
-		System.out.println("Aiden se tropieza y se queda colgando de una rama.");
-		System.out.println("");
-		System.out.println("Decides:");
-		System.out.println("1.- Ayudarle");
-		System.out.println("2.- No ayudarle");
-
-		int eleccionBosque = scanner.nextInt();
-
-		if (eleccionBosque == 1) {
-			opcion11();
-		} else {
-			opcion12();
-		}
-	}
-
-	static void opcion11() {
-
-		System.out.println("Decides ir a ayudarle, la rama en la que estaba sujeto Aiden se rompe, provocando que os caigais los dos por el precipicio.");
-		System.out.println("Tras la caida, Aiden tiene un muerte instantanea y tu sobrevives.");
-	}
-
-	static void opcion12() {
-
-		System.out.println("Decides no ayudar a tu hermano, por tanto tu hermano muere.");
-		System.out.println("Tras su caida, los ciervos te empiezan a acorralar mas y terminas cayendo, provocando tu muerte tambien.");
-	}
-
-	static void opcion10() {
-
-		System.out.println("Decides esperar que vuelva tu hermano. ");
-		System.out.println("Al siguiente dia la policia acude al orfanato para comunicarte una terrible noticia, tu hermano a fallecido tras caerse por un barranco.");
-		System.out.println("");
-	}
-
+	
 	static void opcion1() {
 
 
@@ -118,50 +78,6 @@ public class HistoriaJuegoColaborativa {
 
 	}
 	
-
-	static void opcion2() {
-		
-		System.out.println("Decidir salvar a tu hermano, tendra como consecuencia la muerte de Ingrid.");
-		System.out.println("");
-		System.out.println("Al tomar esta decision, has conseguido salvar a tu hermano Aiden. En contrapartida, tu madre Ingrid no ha logrado sobrevivir al parto.");
-		System.out.println("Este tragico acontecimiento provoca que Aiden y tu os crieis juntos en un orfanato.");
-		System.out.println("");
-		System.out.println("17 anios despues...");
-		System.out.println("");
-		System.out.println("En el orfanato, te hiciste amiga de una chica muy similar a ti, Zoe Smith.");
-		System.out.println("Era sin duda tu mejor amiga del lugar y al tener ambas un caracter muy parecido, os apoyabais en los momentos dificiles. ");
-		System.out.println("Zoe habia perdido a sus padres por un accidente de trafico y llevaba unos pocos anios en el orfanato. Pero desde que entablasteis conversacion por primera vez, se genero una clara complicidad y habiais forjado una fuerte y cercana amistad.");
-		System.out.println("");
-		System.out.println("Al principio Aiden la veia con ojos de rechazo ya que sentia un distanciamiento progresivo contigo por dicha relacion de amistad.");
-		System.out.println("Aiden era un chico introvertido, serio, independiente, que no se habria facilmente ante otras personas y en el fondo se sentia solo. ");
-		System.out.println("Por ello, veia a Zoe como una enemiga y aun no habia hablado con ella ni una sola vez.");
-		System.out.println("");
-		System.out.println("Un dia conseguiste convencer a Aiden de que Zoe no era el problema y le pediste que le diera una oportunidad para que se diera cuenta que ella tambien podria ser buena amiga de ambos y de esta manera fortalecer el vinculo con tu hermano.");
-		System.out.println("Con el paso del tiempo, tanto tu como Aiden y Zoe empezasteis a compartir buenos momentos en el orfanato y formasteis un grupo unido y complice.");
-		System.out.println("Pero poco a poco, Aiden se empezo a enamorar de Zoe y a tener fuertes sentimientos por ella.");
-		System.out.println("");
-		System.out.println("Despues de un largo periodo de reflexion por parte de tu hermano, decide confesar sus sentimientos a Zoe.");
-		System.out.println("Aunque Zoe se sintio muy halagada por las palabras tan sentidas de Aiden, ella no sentia lo mismo por el.");
-		System.out.println("Aiden se quedo en shock. Al principio estaba totalmente paralizado y no movia ni un musculo.");
-		System.out.println("Pero rapidamente se puso a temblar, y se exclamo con un llanto desconsolado diciendo que ya no queria ser mas su amigo.");
-		System.out.println("Seguidamente a ello, Aiden se fue a su habitacion sin mirar a nadie.");
-		System.out.println("");
-		System.out.println("Esa misma noche, Aiden se consigue fugar del orfanato sin mirar atras, perdiendose en los entresijos del bosque.");
-		System.out.println("");
-		System.out.println("Decides:");
-		System.out.println("1.-Salir al bosque a buscar a Aiden.");
-		System.out.println("2.-Esperar en el orfanato a que vuelva.");
-		
-		int eleccionBosque=scanner.nextInt();
-		
-		if(eleccionBosque==1) {
-			
-		} else {
-			
-		}
-		
-}
-
 	static void opcion3() {
 		
 		System.out.println("Decides colaborar con la CNP");
@@ -237,4 +153,94 @@ public class HistoriaJuegoColaborativa {
 		System.out.println("Aiden te confiesa que es tu hermano y decides morir e ir al inframundo, permaneciendo con el eternamente");
 
 	}
+	
+	static void opcion2() {
+		
+		System.out.println("Decidir salvar a tu hermano, tendra como consecuencia la muerte de Ingrid.");
+		System.out.println("");
+		System.out.println("Al tomar esta decision, has conseguido salvar a tu hermano Aiden. En contrapartida, tu madre Ingrid no ha logrado sobrevivir al parto.");
+		System.out.println("Este tragico acontecimiento provoca que Aiden y tu os crieis juntos en un orfanato.");
+		System.out.println("");
+		System.out.println("17 anios despues...");
+		System.out.println("");
+		System.out.println("En el orfanato, te hiciste amiga de una chica muy similar a ti, Zoe Smith.");
+		System.out.println("Era sin duda tu mejor amiga del lugar y al tener ambas un caracter muy parecido, os apoyabais en los momentos dificiles. ");
+		System.out.println("Zoe habia perdido a sus padres por un accidente de trafico y llevaba unos pocos anios en el orfanato. Pero desde que entablasteis conversacion por primera vez, se genero una clara complicidad y habiais forjado una fuerte y cercana amistad.");
+		System.out.println("");
+		System.out.println("Al principio Aiden la veia con ojos de rechazo ya que sentia un distanciamiento progresivo contigo por dicha relacion de amistad.");
+		System.out.println("Aiden era un chico introvertido, serio, independiente, que no se habria facilmente ante otras personas y en el fondo se sentia solo. ");
+		System.out.println("Por ello, veia a Zoe como una enemiga y aun no habia hablado con ella ni una sola vez.");
+		System.out.println("");
+		System.out.println("Un dia conseguiste convencer a Aiden de que Zoe no era el problema y le pediste que le diera una oportunidad para que se diera cuenta que ella tambien podria ser buena amiga de ambos y de esta manera fortalecer el vinculo con tu hermano.");
+		System.out.println("Con el paso del tiempo, tanto tu como Aiden y Zoe empezasteis a compartir buenos momentos en el orfanato y formasteis un grupo unido y complice.");
+		System.out.println("Pero poco a poco, Aiden se empezo a enamorar de Zoe y a tener fuertes sentimientos por ella.");
+		System.out.println("");
+		System.out.println("Despues de un largo periodo de reflexion por parte de tu hermano, decide confesar sus sentimientos a Zoe.");
+		System.out.println("Aunque Zoe se sintio muy halagada por las palabras tan sentidas de Aiden, ella no sentia lo mismo por el.");
+		System.out.println("Aiden se quedo en shock. Al principio estaba totalmente paralizado y no movia ni un musculo.");
+		System.out.println("Pero rapidamente se puso a temblar, y se exclamo con un llanto desconsolado diciendo que ya no queria ser mas su amigo.");
+		System.out.println("Seguidamente a ello, Aiden se fue a su habitacion sin mirar a nadie.");
+		System.out.println("");
+		System.out.println("Esa misma noche, Aiden se consigue fugar del orfanato sin mirar atras, perdiendose en los entresijos del bosque.");
+		System.out.println("");
+		System.out.println("Decides:");
+		System.out.println("1.-Salir al bosque a buscar a Aiden.");
+		System.out.println("2.-Esperar en el orfanato a que vuelva.");
+		
+		int eleccionBosque=scanner.nextInt();
+		
+		if(eleccionBosque==1) {
+			opcion9();
+		} else {
+			opcion10();
+		}
+		
+}
+
+	static void opcion9() {
+
+		System.out.println("Decides salir a buscar a Aiden. Tras seguir sus pisadas por el bosque, le encuentras.");
+		System.out.println("");
+		System.out.println("Comenzais a dar un paseo y a hablar sobre lo que ha ocurrido.");
+		System.out.println("En mitad de la charla, cerca de un precipicio, una manada de ciervos os empiezan a acorralar.");
+		System.out.println("Aiden se tropieza y se queda colgando de una rama.");
+		System.out.println("");
+		System.out.println("Decides:");
+		System.out.println("1.- Ayudarle");
+		System.out.println("2.- No ayudarle");
+
+		int eleccionBosque = scanner.nextInt();
+
+		if (eleccionBosque == 1) {
+			opcion11();
+		} else {
+			opcion12();
+		}
+	}
+
+	static void opcion11() {
+
+		System.out.println("Decides ir a ayudarle, la rama en la que estaba sujeto Aiden se rompe, provocando que os caigais los dos por el precipicio.");
+		System.out.println("Tras la caida, Aiden tiene un muerte instantanea y tu sobrevives.");
+	}
+
+	static void opcion12() {
+
+		System.out.println("Decides no ayudar a tu hermano, por tanto tu hermano muere.");
+		System.out.println("Tras su caida, los ciervos te empiezan a acorralar mas y terminas cayendo, provocando tu muerte tambien.");
+	}
+
+	static void opcion10() {
+
+		System.out.println("Decides esperar que vuelva tu hermano. ");
+		System.out.println("Al siguiente dia la policia acude al orfanato para comunicarte una terrible noticia, tu hermano a fallecido tras caerse por un barranco.");
+		System.out.println("");
+	}
+
+	
+	
+
+	
+
+	
 }
